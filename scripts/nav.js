@@ -1,10 +1,10 @@
 //preload hover images (i think this makes a difference)
 window.addEventListener('DOMContentLoaded', () => {
     const hoverGifs = [
-        '../assets/homeselect.gif',
-        '../assets/aboutelect.gif',
-        '../assets/zineselect.gif',
-        '../assets/photosselect.gif',
+        '../assets/nav/homeselect.gif',
+        '../assets/nav/aboutselect.gif',
+        '../assets/nav/zineselect.gif',
+        '../assets/nav/photosselect.gif',
     ];
     hoverGifs.forEach(src =>{
         const img = new Image();
