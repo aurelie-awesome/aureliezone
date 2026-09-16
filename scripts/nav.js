@@ -1,18 +1,13 @@
-const buttons = [
-    document.getElementById("home"),
-    document.getElementById("journal"),
-    document.getElementById("about"),
-    document.getElementById("photos")
-];
-
-function buttonEnter(){
-    this.setAttribute("src", (`assets/${this.id}select.gif`))
-}
-function buttonLeave(){
-    this.setAttribute("src", `assets/${this.id}.gif`)
-}
-
-buttons.forEach(button => {
-    button.addEventListener("mouseenter", buttonEnter);
-    button.addEventListener("mouseleave", buttonLeave);
-})
+//preload hover images (i think this makes a difference)
+window.addEventListener('DOMContentLoaded', () => {
+    const hoverGifs = [
+        '../assets/homeselect.gif',
+        '../assets/aboutelect.gif',
+        '../assets/zineselect.gif',
+        '../assets/photosselect.gif',
+    ];
+    hoverGifs.forEach(src =>{
+        const img = new Image();
+        img.src = src;
+    });
+});

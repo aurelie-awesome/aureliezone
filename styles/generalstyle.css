@@ -24,4 +24,43 @@ body{
 }
 .container-nav{
     background-color: #16171a;
+    display: flex;
+    width: 100%;
+    height: 25%;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-btn{
+    width: 300px;
+    height: 140px;
+}
+
+
+.nav-btn.nav-home{
+    background-image: url('../assets/home.gif');
+}
+.nav-btn.nav-home:hover{
+    background-image: url('../assets/homeselect.gif');
+}
+
+.nav-btn.nav-about{
+    background-image: url('../assets/about.gif');
+}
+.nav-btn.nav-about:hover{
+    background-image: url('../assets/aboutselect.gif');
+}
+
+.nav-btn.nav-zine{
+    background-image: url('../assets/zine.gif');
+}
+.nav-btn.nav-zine:hover{
+    background-image: url('../assets/zineselect.gif');
+}
+
+.nav-btn.nav-photos{
+    background-image: url('../assets/photos.gif');
+}
+.nav-btn.nav-photos:hover{
+    background-image: url('../assets/photosselect.gif');
 }
