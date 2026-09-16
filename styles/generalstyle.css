@@ -38,29 +38,29 @@ body{
 
 
 .nav-btn.nav-home{
-    background-image: url('../assets/home.gif');
+    background-image: url('../assets/nav/home.gif');
 }
 .nav-btn.nav-home:hover{
-    background-image: url('../assets/homeselect.gif');
+    background-image: url('../assets/nav/homeselect.gif');
 }
 
 .nav-btn.nav-about{
-    background-image: url('../assets/about.gif');
+    background-image: url('../assets/nav/about.gif');
 }
 .nav-btn.nav-about:hover{
-    background-image: url('../assets/aboutselect.gif');
+    background-image: url('../assets/nav/aboutselect.gif');
 }
 
 .nav-btn.nav-zine{
-    background-image: url('../assets/zine.gif');
+    background-image: url('../assets/nav/zine.gif');
 }
 .nav-btn.nav-zine:hover{
-    background-image: url('../assets/zineselect.gif');
+    background-image: url('../assets/nav/zineselect.gif');
 }
 
 .nav-btn.nav-photos{
-    background-image: url('../assets/photos.gif');
+    background-image: url('../assets/nav/photos.gif');
 }
 .nav-btn.nav-photos:hover{
-    background-image: url('../assets/photosselect.gif');
+    background-image: url('../assets/nav/photosselect.gif');
 }
