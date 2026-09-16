@@ -1,0 +1,27 @@
+
+
+body{
+    background-image: url('../assets/starbg.gif');
+    background-repeat: repeat;
+    image-rendering: pixelated;
+}
+
+ .container-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+.container-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container-logo{
+    background-color: #16171a;
+    width: 50%;
+}
+.container-nav{
+    background-color: #16171a;
+}
